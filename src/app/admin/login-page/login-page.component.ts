@@ -21,7 +21,9 @@ export class LoginPageComponent implements OnInit {
     });
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    
+  }
 
   submit() {
     if (this.form.invalid) {
