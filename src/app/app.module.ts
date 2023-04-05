@@ -24,3 +24,4 @@ import { PostComponent } from './shared/components/post/post.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
