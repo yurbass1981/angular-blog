@@ -35,7 +35,7 @@ export class LoginPageComponent implements OnInit {
       return;
     }
 
-    const user: User = {
+    const user: User | any = {
       email: this.form.value.email,
       password: this.form.value.password
     }
